@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "polaroid-scatter-5",
+  "version": 1,
+  "name": {
+    "en": "Pinned Polaroids",
+    "de": "Angepinnte Polaroids"
+  },
+  "category": "polaroid",
+  "tags": [
+    "cork",
+    "scatter",
+    "memories"
+  ],
+  "canvas": {
+    "aspectWidth": 4,
+    "aspectHeight": 5,
+    "backgroundColor": "#EFE9DF"
+  },
+  "defaults": {
+    "borderColor": "#FFFFFF",
+    "borderWidth": 0.02,
+    "gap": 0.0,
+    "cornerRadius": 0.0,
+    "outerPadding": 0.0
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.01,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0.0,
+      "max": 0.02
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.04,
+      "y": 0.03,
+      "width": 0.4,
+      "height": 0.368,
+      "rotation": -5,
+      "zIndex": 1,
+      "frameStyle": "polaroid",
+      "gapAware": false,
+      "polaroidBottomRatio": 4.0,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s2",
+      "x": 0.56,
+      "y": 0.05,
+      "width": 0.4,
+      "height": 0.368,
+      "rotation": 4,
+      "zIndex": 2,
+      "frameStyle": "polaroid",
+      "gapAware": false,
+      "polaroidBottomRatio": 4.0,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s3",
+      "x": 0.27,
+      "y": 0.3,
+      "width": 0.46,
+      "height": 0.416,
+      "rotation": -2,
+      "zIndex": 3,
+      "frameStyle": "polaroid",
+      "gapAware": false,
+      "polaroidBottomRatio": 4.0,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s4",
+      "x": 0.05,
+      "y": 0.6,
+      "width": 0.4,
+      "height": 0.368,
+      "rotation": 5,
+      "zIndex": 4,
+      "frameStyle": "polaroid",
+      "gapAware": false,
+      "polaroidBottomRatio": 4.0,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s5",
+      "x": 0.55,
+      "y": 0.58,
+      "width": 0.4,
+      "height": 0.368,
+      "rotation": -4,
+      "zIndex": 5,
+      "frameStyle": "polaroid",
+      "gapAware": false,
+      "polaroidBottomRatio": 4.0,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    }
+  ],
+  "decorations": [
+    {
+      "type": "shape",
+      "shape": "ellipse",
+      "color": "#C8453D",
+      "opacity": 0.95,
+      "x": 0.2044,
+      "y": 0.0346,
+      "width": 0.035,
+      "height": 0.028,
+      "rotation": 0,
+      "zIndex": 20
+    },
+    {
+      "type": "shape",
+      "shape": "ellipse",
+      "color": "#C8453D",
+      "opacity": 0.95,
+      "x": 0.757,
+      "y": 0.0544,
+      "width": 0.035,
+      "height": 0.028,
+      "rotation": 0,
+      "zIndex": 20
+    },
+    {
+      "type": "shape",
+      "shape": "ellipse",
+      "color": "#C8453D",
+      "opacity": 0.95,
+      "x": 0.4742,
+      "y": 0.3041,
+      "width": 0.035,
+      "height": 0.028,
+      "rotation": 0,
+      "zIndex": 20
+    },
+    {
+      "type": "shape",
+      "shape": "ellipse",
+      "color": "#C8453D",
+      "opacity": 0.95,
+      "x": 0.2506,
+      "y": 0.6046,
+      "width": 0.035,
+      "height": 0.028,
+      "rotation": 0,
+      "zIndex": 20
+    },
+    {
+      "type": "shape",
+      "shape": "ellipse",
+      "color": "#C8453D",
+      "opacity": 0.95,
+      "x": 0.718,
+      "y": 0.5844,
+      "width": 0.035,
+      "height": 0.028,
+      "rotation": 0,
+      "zIndex": 20
+    }
+  ]
+}

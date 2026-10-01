@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "grid-4x4",
+  "version": 1,
+  "name": {
+    "en": "Grid 4×4",
+    "de": "Raster 4×4"
+  },
+  "category": "grid",
+  "tags": [
+    "clean",
+    "mood-board",
+    "square"
+  ],
+  "canvas": {
+    "aspectWidth": 1,
+    "aspectHeight": 1,
+    "backgroundColor": "#FFFFFF"
+  },
+  "defaults": {
+    "borderColor": "#FFFFFF",
+    "borderWidth": 0.0,
+    "gap": 0.008,
+    "cornerRadius": 0.0,
+    "outerPadding": 0.025
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.0,
+      "max": 0.04
+    },
+    "gap": {
+      "min": 0.0,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0.0,
+      "max": 0.08
+    },
+    "outerPadding": {
+      "min": 0.0,
+      "max": 0.08
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s2",
+      "x": 0.25,
+      "y": 0.0,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s3",
+      "x": 0.5,
+      "y": 0.0,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s4",
+      "x": 0.75,
+      "y": 0.0,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s5",
+      "x": 0.0,
+      "y": 0.25,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s6",
+      "x": 0.25,
+      "y": 0.25,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s7",
+      "x": 0.5,
+      "y": 0.25,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s8",
+      "x": 0.75,
+      "y": 0.25,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s9",
+      "x": 0.0,
+      "y": 0.5,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s10",
+      "x": 0.25,
+      "y": 0.5,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s11",
+      "x": 0.5,
+      "y": 0.5,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s12",
+      "x": 0.75,
+      "y": 0.5,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s13",
+      "x": 0.0,
+      "y": 0.75,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s14",
+      "x": 0.25,
+      "y": 0.75,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s15",
+      "x": 0.5,
+      "y": 0.75,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s16",
+      "x": 0.75,
+      "y": 0.75,
+      "width": 0.25,
+      "height": 0.25,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    }
+  ],
+  "decorations": []
+}

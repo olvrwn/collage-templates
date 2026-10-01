@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "bento-5",
+  "version": 1,
+  "name": {
+    "en": "Bento 5",
+    "de": "Bento 5"
+  },
+  "category": "editorial",
+  "tags": [
+    "bento",
+    "rounded",
+    "pastel"
+  ],
+  "canvas": {
+    "aspectWidth": 4,
+    "aspectHeight": 5,
+    "backgroundColor": "#F3E9E4"
+  },
+  "defaults": {
+    "borderColor": "#F3E9E4",
+    "borderWidth": 0.0,
+    "gap": 0.02,
+    "cornerRadius": 0.04,
+    "outerPadding": 0.05
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.0,
+      "max": 0.04
+    },
+    "gap": {
+      "min": 0.0,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0.0,
+      "max": 0.08
+    },
+    "outerPadding": {
+      "min": 0.0,
+      "max": 0.08
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0,
+      "y": 0,
+      "width": 0.58,
+      "height": 0.42,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s2",
+      "x": 0.58,
+      "y": 0,
+      "width": 0.42,
+      "height": 0.26,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s3",
+      "x": 0.58,
+      "y": 0.26,
+      "width": 0.42,
+      "height": 0.34,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s4",
+      "x": 0,
+      "y": 0.42,
+      "width": 0.58,
+      "height": 0.58,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s5",
+      "x": 0.58,
+      "y": 0.6,
+      "width": 0.42,
+      "height": 0.4,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    }
+  ],
+  "decorations": []
+}

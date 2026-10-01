@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T15:13:16Z",
+  "updatedAt": "2026-10-01T16:44:08Z",
   "templates": [
+    {
+      "id": "bento-5",
+      "version": 1,
+      "name": {
+        "en": "Bento 5",
+        "de": "Bento 5"
+      },
+      "category": "editorial",
+      "tags": [
+        "bento",
+        "rounded",
+        "pastel"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 5,
+      "thumbnail": "templates/bento-5/thumb.jpg",
+      "definition": "templates/bento-5/template.json",
+      "sha256": "3287fad4641b32503e9b4f1ce481046190317c1bc599fa2cdb47b5a2309bfd62",
+      "assets": []
+    },
+    {
+      "id": "cinematic-stack-3",
+      "version": 1,
+      "name": {
+        "en": "Cinematic Stack",
+        "de": "Kino-Stapel"
+      },
+      "category": "film",
+      "tags": [
+        "dark",
+        "wide",
+        "story"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 3,
+      "thumbnail": "templates/cinematic-stack-3/thumb.jpg",
+      "definition": "templates/cinematic-stack-3/template.json",
+      "sha256": "358bfac92829bcfc66a3aa45712509007fec44756251f4cca7b1f0036948752b",
+      "assets": []
+    },
+    {
+      "id": "dump-scatter-7",
+      "version": 1,
+      "name": {
+        "en": "Photo Dump",
+        "de": "Photo Dump"
+      },
+      "category": "scrapbook",
+      "tags": [
+        "dump",
+        "overlap",
+        "casual"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 7,
+      "thumbnail": "templates/dump-scatter-7/thumb.jpg",
+      "definition": "templates/dump-scatter-7/template.json",
+      "sha256": "8e7a54672c05afeef8e7692b91adccd7e61545458ed27c255b92438fbe56e5b2",
+      "assets": []
+    },
     {
       "id": "editorial-5",
       "version": 1,
@@ -80,6 +140,66 @@
       "assets": []
     },
     {
+      "id": "grid-3x3",
+      "version": 1,
+      "name": {
+        "en": "Grid 3×3",
+        "de": "Raster 3×3"
+      },
+      "category": "grid",
+      "tags": [
+        "clean",
+        "mood-board",
+        "square"
+      ],
+      "aspectRatio": "1:1",
+      "photoCount": 9,
+      "thumbnail": "templates/grid-3x3/thumb.jpg",
+      "definition": "templates/grid-3x3/template.json",
+      "sha256": "22bde0b1e83c34311c293646069427100d51b5d2f64d84c95ca9b944f373ab23",
+      "assets": []
+    },
+    {
+      "id": "grid-4x4",
+      "version": 1,
+      "name": {
+        "en": "Grid 4×4",
+        "de": "Raster 4×4"
+      },
+      "category": "grid",
+      "tags": [
+        "clean",
+        "mood-board",
+        "square"
+      ],
+      "aspectRatio": "1:1",
+      "photoCount": 16,
+      "thumbnail": "templates/grid-4x4/thumb.jpg",
+      "definition": "templates/grid-4x4/template.json",
+      "sha256": "90d2ad6f0043298cf03271a11095db5a7832d67eebd02fa77c220558f816c3b1",
+      "assets": []
+    },
+    {
+      "id": "hero-3",
+      "version": 1,
+      "name": {
+        "en": "Hero + 3",
+        "de": "Hero + 3"
+      },
+      "category": "editorial",
+      "tags": [
+        "hero",
+        "magazine",
+        "story"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 4,
+      "thumbnail": "templates/hero-3/thumb.jpg",
+      "definition": "templates/hero-3/template.json",
+      "sha256": "d0a83ed634139fb71c68d262bfff2f97206438e8eb8869cc5d09672bc653ed4c",
+      "assets": []
+    },
+    {
       "id": "mosaic-1-2",
       "version": 1,
       "name": {
@@ -96,6 +216,86 @@
       "thumbnail": "templates/mosaic-1-2/thumb.jpg",
       "definition": "templates/mosaic-1-2/template.json",
       "sha256": "f41842d1728406f77ecea492cf4075e30a89c759c56280cff29103bbdb04f1b8",
+      "assets": []
+    },
+    {
+      "id": "offset-rows-6",
+      "version": 1,
+      "name": {
+        "en": "Offset Rows",
+        "de": "Versetzte Reihen"
+      },
+      "category": "editorial",
+      "tags": [
+        "magazine",
+        "story",
+        "six"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 6,
+      "thumbnail": "templates/offset-rows-6/thumb.jpg",
+      "definition": "templates/offset-rows-6/template.json",
+      "sha256": "510d27e79f2b3a879965b1722d475afa7b31c3d041890bbc6bc4e087009560ec",
+      "assets": []
+    },
+    {
+      "id": "photobooth-duo-6",
+      "version": 1,
+      "name": {
+        "en": "Photobooth Duo",
+        "de": "Fotoautomat Duo"
+      },
+      "category": "photobooth",
+      "tags": [
+        "retro",
+        "strip",
+        "pastel"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 6,
+      "thumbnail": "templates/photobooth-duo-6/thumb.jpg",
+      "definition": "templates/photobooth-duo-6/template.json",
+      "sha256": "d69be9e3facae959ce233563ea713d4cca13465a4e3cbea8555ad2ed4524f192",
+      "assets": []
+    },
+    {
+      "id": "photobooth-strip-4",
+      "version": 1,
+      "name": {
+        "en": "Photobooth Strip",
+        "de": "Fotoautomaten-Streifen"
+      },
+      "category": "photobooth",
+      "tags": [
+        "retro",
+        "strip",
+        "story"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 4,
+      "thumbnail": "templates/photobooth-strip-4/thumb.jpg",
+      "definition": "templates/photobooth-strip-4/template.json",
+      "sha256": "1cd56c26d42d571aa3cd60bd6ab40f4fecf649aeee86696c09f3a3034d8f7a63",
+      "assets": []
+    },
+    {
+      "id": "polaroid-scatter-5",
+      "version": 1,
+      "name": {
+        "en": "Pinned Polaroids",
+        "de": "Angepinnte Polaroids"
+      },
+      "category": "polaroid",
+      "tags": [
+        "cork",
+        "scatter",
+        "memories"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 5,
+      "thumbnail": "templates/polaroid-scatter-5/thumb.jpg",
+      "definition": "templates/polaroid-scatter-5/template.json",
+      "sha256": "1a93db75ea43e6373b492163cfab87568969eae3c7c35f4a1f084cfb8d11959b",
       "assets": []
     },
     {
@@ -116,6 +316,26 @@
       "thumbnail": "templates/polaroid-trio/thumb.jpg",
       "definition": "templates/polaroid-trio/template.json",
       "sha256": "c57da2a6877a6c24ef290ceccb219ee5ddb446935ae68a43598fd8c4c5633723",
+      "assets": []
+    },
+    {
+      "id": "polaroid-wall-6",
+      "version": 1,
+      "name": {
+        "en": "Polaroid Wall",
+        "de": "Polaroid-Wand"
+      },
+      "category": "polaroid",
+      "tags": [
+        "vintage",
+        "wall",
+        "warm"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 6,
+      "thumbnail": "templates/polaroid-wall-6/thumb.jpg",
+      "definition": "templates/polaroid-wall-6/template.json",
+      "sha256": "cde8fa6d00b7369b46ea6e47a7d72c0bdd29d9416aa123c2b0e748ecc9e08d6f",
       "assets": []
     }
   ]

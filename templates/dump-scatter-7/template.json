@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "dump-scatter-7",
+  "version": 1,
+  "name": {
+    "en": "Photo Dump",
+    "de": "Photo Dump"
+  },
+  "category": "scrapbook",
+  "tags": [
+    "dump",
+    "overlap",
+    "casual"
+  ],
+  "canvas": {
+    "aspectWidth": 9,
+    "aspectHeight": 16,
+    "backgroundColor": "#EDE6DA"
+  },
+  "defaults": {
+    "borderColor": "#FFFFFF",
+    "borderWidth": 0.012,
+    "gap": 0.0,
+    "cornerRadius": 0.0,
+    "outerPadding": 0.0
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.0,
+      "max": 0.03
+    },
+    "cornerRadius": {
+      "min": 0.0,
+      "max": 0.03
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.04,
+      "y": 0.03,
+      "width": 0.52,
+      "height": 0.219375,
+      "rotation": -3,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s2",
+      "x": 0.55,
+      "y": 0.06,
+      "width": 0.4,
+      "height": 0.28125,
+      "rotation": 4,
+      "zIndex": 2,
+      "frameStyle": "solid",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s3",
+      "x": 0.1,
+      "y": 0.24,
+      "width": 0.4,
+      "height": 0.28125,
+      "rotation": -2,
+      "zIndex": 3,
+      "frameStyle": "solid",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s4",
+      "x": 0.45,
+      "y": 0.31,
+      "width": 0.5,
+      "height": 0.210938,
+      "rotation": 3,
+      "zIndex": 4,
+      "frameStyle": "solid",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s5",
+      "x": 0.04,
+      "y": 0.52,
+      "width": 0.48,
+      "height": 0.351,
+      "rotation": 2,
+      "zIndex": 5,
+      "frameStyle": "solid",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s6",
+      "x": 0.5,
+      "y": 0.55,
+      "width": 0.46,
+      "height": 0.207,
+      "rotation": -3,
+      "zIndex": 6,
+      "frameStyle": "solid",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s7",
+      "x": 0.52,
+      "y": 0.72,
+      "width": 0.4,
+      "height": 0.25875,
+      "rotation": 4,
+      "zIndex": 7,
+      "frameStyle": "solid",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.28,
+        "offsetY": 0.006
+      }
+    }
+  ],
+  "decorations": []
+}

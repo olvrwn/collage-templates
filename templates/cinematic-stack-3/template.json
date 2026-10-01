@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-stack-3",
+  "version": 1,
+  "name": {
+    "en": "Cinematic Stack",
+    "de": "Kino-Stapel"
+  },
+  "category": "film",
+  "tags": [
+    "dark",
+    "wide",
+    "story"
+  ],
+  "canvas": {
+    "aspectWidth": 9,
+    "aspectHeight": 16,
+    "backgroundColor": "#0B0B0B"
+  },
+  "defaults": {
+    "borderColor": "#0B0B0B",
+    "borderWidth": 0.0,
+    "gap": 0.0,
+    "cornerRadius": 0.0,
+    "outerPadding": 0.0
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.0,
+      "max": 0.03
+    },
+    "cornerRadius": {
+      "min": 0.0,
+      "max": 0.03
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.06,
+      "y": 0.12,
+      "width": 0.88,
+      "height": 0.26,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": false
+    },
+    {
+      "id": "s2",
+      "x": 0.06,
+      "y": 0.4,
+      "width": 0.88,
+      "height": 0.26,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": false
+    },
+    {
+      "id": "s3",
+      "x": 0.06,
+      "y": 0.68,
+      "width": 0.88,
+      "height": 0.26,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": false
+    }
+  ],
+  "decorations": []
+}

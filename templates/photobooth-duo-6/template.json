@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "photobooth-duo-6",
+  "version": 1,
+  "name": {
+    "en": "Photobooth Duo",
+    "de": "Fotoautomat Duo"
+  },
+  "category": "photobooth",
+  "tags": [
+    "retro",
+    "strip",
+    "pastel"
+  ],
+  "canvas": {
+    "aspectWidth": 4,
+    "aspectHeight": 5,
+    "backgroundColor": "#B9C7D6"
+  },
+  "defaults": {
+    "borderColor": "#FFFFFF",
+    "borderWidth": 0.0,
+    "gap": 0.0,
+    "cornerRadius": 0.0,
+    "outerPadding": 0.0
+  },
+  "customizable": {
+    "borderColor": true,
+    "cornerRadius": {
+      "min": 0.0,
+      "max": 0.02
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "a1",
+      "x": 0.085,
+      "y": 0.05,
+      "width": 0.36,
+      "height": 0.245,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "none",
+      "gapAware": false
+    },
+    {
+      "id": "a2",
+      "x": 0.085,
+      "y": 0.325,
+      "width": 0.36,
+      "height": 0.245,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "none",
+      "gapAware": false
+    },
+    {
+      "id": "a3",
+      "x": 0.085,
+      "y": 0.6,
+      "width": 0.36,
+      "height": 0.245,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "none",
+      "gapAware": false
+    },
+    {
+      "id": "b1",
+      "x": 0.555,
+      "y": 0.08,
+      "width": 0.36,
+      "height": 0.245,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "none",
+      "gapAware": false
+    },
+    {
+      "id": "b2",
+      "x": 0.555,
+      "y": 0.355,
+      "width": 0.36,
+      "height": 0.245,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "none",
+      "gapAware": false
+    },
+    {
+      "id": "b3",
+      "x": 0.555,
+      "y": 0.63,
+      "width": 0.36,
+      "height": 0.245,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "none",
+      "gapAware": false
+    }
+  ],
+  "decorations": [
+    {
+      "type": "shape",
+      "shape": "rect",
+      "color": "$borderColor",
+      "opacity": 1.0,
+      "x": 0.05,
+      "y": 0.03,
+      "width": 0.43,
+      "height": 0.94,
+      "rotation": 0,
+      "zIndex": 0
+    },
+    {
+      "type": "shape",
+      "shape": "rect",
+      "color": "$borderColor",
+      "opacity": 1.0,
+      "x": 0.52,
+      "y": 0.06,
+      "width": 0.43,
+      "height": 0.91,
+      "rotation": 0,
+      "zIndex": 0
+    }
+  ]
+}

@@ -4,6 +4,7 @@ Collage template repo tool.
 
   python3 tools/build.py              validate all templates, create missing thumbnails, rewrite manifest.json
   python3 tools/build.py --thumbs     regenerate ALL placeholder thumbnails (overwrites existing thumb.jpg!)
+  python3 tools/build.py --thumbs --only <id>   regenerate the placeholder thumbnail of ONE template
 
 What it does
   1. Validates every templates/<id>/template.json (schema v1).
@@ -22,7 +23,9 @@ TEMPLATES = os.path.join(ROOT, "templates")
 MANIFEST = os.path.join(ROOT, "manifest.json")
 SUPPORTED_SCHEMA = 1
 FRAME_STYLES = {"none", "solid", "polaroid", "film"}
-CATEGORIES = {"grid", "polaroid", "film", "editorial"}
+CATEGORIES = {"grid", "polaroid", "film", "editorial", "photobooth", "scrapbook"}
+COLOR_TOKENS = {"$borderColor", "$backgroundColor"}
+SHAPES = {"rect", "ellipse"}
 HEX = re.compile(r"^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$")
 EDGE_EPS = 0.001
 
@@ -134,6 +137,13 @@ def validate(t, folder):
     for dec in t.get("decorations", []):
         if dec.get("type") not in ("shape", "image"):
             err(tid, "decoration.type must be shape|image")
+        if dec["type"] == "shape":
+            if dec.get("shape", "rect") not in SHAPES:
+                err(tid, f"decoration.shape must be one of {sorted(SHAPES)}")
+            if not (HEX.match(dec["color"]) or dec["color"] in COLOR_TOKENS):
+                err(tid, f"decoration.color must be hex or one of {sorted(COLOR_TOKENS)}")
+        for k in ("x", "y", "width"):
+            num(tid, dec[k], f"decoration.{k}", 0, 1)
 
 
 def sha256(path):
@@ -220,7 +230,15 @@ def make_thumb(t, out_path):
             pad = params["outerPadding"] * W
             x, y = pad + o["x"] * (W - 2 * pad), pad + o["y"] * (H - 2 * pad)
             w, h = o["width"] * (W - 2 * pad), o["height"] * (H - 2 * pad)
-            layer = Image.new("RGBA", (max(1, round(w)), max(1, round(h))), hex_rgb(o["color"]) + (round(255 * o.get("opacity", 1)),))
+            col = o["color"]
+            col = d["borderColor"] if col == "$borderColor" else t["canvas"]["backgroundColor"] if col == "$backgroundColor" else col
+            rgba = hex_rgb(col) + (round(255 * o.get("opacity", 1)),)
+            size = (max(1, round(w)), max(1, round(h)))
+            layer = Image.new("RGBA", size, (0, 0, 0, 0))
+            if o.get("shape", "rect") == "ellipse":
+                ImageDraw.Draw(layer).ellipse([0, 0, size[0] - 1, size[1] - 1], fill=rgba)
+            else:
+                layer = Image.new("RGBA", size, rgba)
             paste_rotated(layer, x + w / 2, y + h / 2, o.get("rotation", 0))
     img = img.resize((W // S, H // S), Image.LANCZOS)
     img.save(out_path, "JPEG", quality=88)
@@ -229,6 +247,7 @@ def make_thumb(t, out_path):
 # ----------------------------------------------------------------- main
 def main():
     force_thumbs = "--thumbs" in sys.argv
+    only = sys.argv[sys.argv.index("--only") + 1] if "--only" in sys.argv else None
     old = {}
     if os.path.exists(MANIFEST):
         with open(MANIFEST, encoding="utf-8") as f:
@@ -247,7 +266,7 @@ def main():
         if prev and prev["sha256"] != digest and prev["version"] >= t["version"]:
             err(t["id"], f"template.json changed but version is still {t['version']} - bump it")
         thumb = os.path.join(tdir, "thumb.jpg")
-        if force_thumbs or not os.path.exists(thumb):
+        if (force_thumbs and (only is None or only == t["id"])) or not os.path.exists(thumb):
             make_thumb(t, thumb)
             print(f"thumbnail written: {folder}")
         assets = []
