@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "triptych-16x9",
+  "version": 1,
+  "name": {
+    "en": "Triptych",
+    "de": "Triptychon"
+  },
+  "category": "grid",
+  "tags": [
+    "landscape",
+    "three",
+    "clean"
+  ],
+  "canvas": {
+    "aspectWidth": 16,
+    "aspectHeight": 9,
+    "backgroundColor": "#FFFFFF"
+  },
+  "defaults": {
+    "borderColor": "#FFFFFF",
+    "borderWidth": 0,
+    "gap": 0.008,
+    "cornerRadius": 0,
+    "outerPadding": 0.02
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0,
+      "max": 0.04
+    },
+    "gap": {
+      "min": 0,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0,
+      "max": 0.08
+    },
+    "outerPadding": {
+      "min": 0,
+      "max": 0.08
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.3333,
+      "height": 1.0,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s2",
+      "x": 0.3333,
+      "y": 0.0,
+      "width": 0.3333,
+      "height": 1.0,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s3",
+      "x": 0.6667,
+      "y": 0.0,
+      "width": 0.3333,
+      "height": 1.0,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    }
+  ],
+  "decorations": []
+}

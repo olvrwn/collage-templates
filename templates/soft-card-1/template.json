@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "soft-card-1",
+  "version": 1,
+  "name": {
+    "en": "Soft Card",
+    "de": "Weiche Karte"
+  },
+  "category": "editorial",
+  "tags": [
+    "rounded",
+    "story",
+    "single"
+  ],
+  "canvas": {
+    "aspectWidth": 9,
+    "aspectHeight": 16,
+    "backgroundColor": "#E6DFD3"
+  },
+  "defaults": {
+    "borderColor": "#FFFFFF",
+    "borderWidth": 0,
+    "gap": 0,
+    "cornerRadius": 0.06,
+    "outerPadding": 0.08
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0,
+      "max": 0.04
+    },
+    "gap": {
+      "min": 0,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0,
+      "max": 0.08
+    },
+    "outerPadding": {
+      "min": 0,
+      "max": 0.12
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "none",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.02,
+        "opacity": 0.25,
+        "offsetY": 0.008
+      }
+    }
+  ],
+  "decorations": []
+}

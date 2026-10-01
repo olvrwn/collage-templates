@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T16:44:08Z",
+  "updatedAt": "2026-10-01T19:52:13Z",
   "templates": [
     {
       "id": "bento-5",
@@ -82,6 +82,46 @@
       "assets": []
     },
     {
+      "id": "film-duo",
+      "version": 1,
+      "name": {
+        "en": "Film Duo",
+        "de": "Film-Duo"
+      },
+      "category": "film",
+      "tags": [
+        "analog",
+        "strip",
+        "two"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 2,
+      "thumbnail": "templates/film-duo/thumb.jpg",
+      "definition": "templates/film-duo/template.json",
+      "sha256": "dfac6714e80839d02dd6a37689334090179f80d1c20571c4a29553ed2fd6bde6",
+      "assets": []
+    },
+    {
+      "id": "film-frame-1",
+      "version": 1,
+      "name": {
+        "en": "Film Frame",
+        "de": "Filmbild"
+      },
+      "category": "film",
+      "tags": [
+        "analog",
+        "35mm",
+        "single"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 1,
+      "thumbnail": "templates/film-frame-1/thumb.jpg",
+      "definition": "templates/film-frame-1/template.json",
+      "sha256": "7799af3adff09fe82c28347bf3b1311ef6e5cacd1bde8164f58951c86c18003a",
+      "assets": []
+    },
+    {
       "id": "film-strip-3",
       "version": 1,
       "name": {
@@ -99,6 +139,26 @@
       "thumbnail": "templates/film-strip-3/thumb.jpg",
       "definition": "templates/film-strip-3/template.json",
       "sha256": "ab19cd50fdd89c59c2daacdea9ce5e010610e44a0eb72d14b060aeb27c343a06",
+      "assets": []
+    },
+    {
+      "id": "framed-print-1",
+      "version": 1,
+      "name": {
+        "en": "Framed Print",
+        "de": "Gerahmter Druck"
+      },
+      "category": "editorial",
+      "tags": [
+        "minimal",
+        "gallery",
+        "single"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 1,
+      "thumbnail": "templates/framed-print-1/thumb.jpg",
+      "definition": "templates/framed-print-1/template.json",
+      "sha256": "41533e6947b3eeab6a4beab826eb10cccd82f11f3a06e1143b680462df37f8b1",
       "assets": []
     },
     {
@@ -137,6 +197,26 @@
       "thumbnail": "templates/grid-2x3/thumb.jpg",
       "definition": "templates/grid-2x3/template.json",
       "sha256": "fc9cf521d84f672da8970a9fdb9fe1398c3b5d4abedf6196d3e1e84483c2d80f",
+      "assets": []
+    },
+    {
+      "id": "grid-3x2-landscape",
+      "version": 1,
+      "name": {
+        "en": "Grid 3×2",
+        "de": "Raster 3×2"
+      },
+      "category": "grid",
+      "tags": [
+        "landscape",
+        "six",
+        "clean"
+      ],
+      "aspectRatio": "3:2",
+      "photoCount": 6,
+      "thumbnail": "templates/grid-3x2-landscape/thumb.jpg",
+      "definition": "templates/grid-3x2-landscape/template.json",
+      "sha256": "4b0184dfb2e24f723af79bc69e0e978218a07b506e7da83fd73c7f9797a295e2",
       "assets": []
     },
     {
@@ -200,6 +280,26 @@
       "assets": []
     },
     {
+      "id": "hero-landscape-3",
+      "version": 1,
+      "name": {
+        "en": "Wide Hero",
+        "de": "Breites Hero"
+      },
+      "category": "editorial",
+      "tags": [
+        "landscape",
+        "hero",
+        "three"
+      ],
+      "aspectRatio": "16:9",
+      "photoCount": 3,
+      "thumbnail": "templates/hero-landscape-3/thumb.jpg",
+      "definition": "templates/hero-landscape-3/template.json",
+      "sha256": "96048e13986205fa91c31934c1fe3e3ddcea95bee869ec8371c0d4e9c7a2f9af",
+      "assets": []
+    },
+    {
       "id": "mosaic-1-2",
       "version": 1,
       "name": {
@@ -216,6 +316,26 @@
       "thumbnail": "templates/mosaic-1-2/thumb.jpg",
       "definition": "templates/mosaic-1-2/template.json",
       "sha256": "f41842d1728406f77ecea492cf4075e30a89c759c56280cff29103bbdb04f1b8",
+      "assets": []
+    },
+    {
+      "id": "offset-duo",
+      "version": 1,
+      "name": {
+        "en": "Offset Duo",
+        "de": "Versetztes Duo"
+      },
+      "category": "editorial",
+      "tags": [
+        "magazine",
+        "layered",
+        "two"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 2,
+      "thumbnail": "templates/offset-duo/thumb.jpg",
+      "definition": "templates/offset-duo/template.json",
+      "sha256": "740c57194a2c2cdf088e88fdf7d2312e3cd12f18f97b8ba08a05d25d91b7e546",
       "assets": []
     },
     {
@@ -279,6 +399,46 @@
       "assets": []
     },
     {
+      "id": "polaroid-duo",
+      "version": 1,
+      "name": {
+        "en": "Polaroid Duo",
+        "de": "Polaroid-Duo"
+      },
+      "category": "polaroid",
+      "tags": [
+        "vintage",
+        "tape",
+        "two"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 2,
+      "thumbnail": "templates/polaroid-duo/thumb.jpg",
+      "definition": "templates/polaroid-duo/template.json",
+      "sha256": "83d775a35248faee294ce9fbfc9b50af39e53bbf1673fc794ad51ca039678929",
+      "assets": []
+    },
+    {
+      "id": "polaroid-row-landscape",
+      "version": 1,
+      "name": {
+        "en": "Polaroid Row",
+        "de": "Polaroid-Reihe"
+      },
+      "category": "polaroid",
+      "tags": [
+        "landscape",
+        "vintage",
+        "tape"
+      ],
+      "aspectRatio": "3:2",
+      "photoCount": 3,
+      "thumbnail": "templates/polaroid-row-landscape/thumb.jpg",
+      "definition": "templates/polaroid-row-landscape/template.json",
+      "sha256": "239da894934fedf9ffad63662ec804806c7bd28137409c798daa68b3b8d2ee13",
+      "assets": []
+    },
+    {
       "id": "polaroid-scatter-5",
       "version": 1,
       "name": {
@@ -296,6 +456,26 @@
       "thumbnail": "templates/polaroid-scatter-5/thumb.jpg",
       "definition": "templates/polaroid-scatter-5/template.json",
       "sha256": "1a93db75ea43e6373b492163cfab87568969eae3c7c35f4a1f084cfb8d11959b",
+      "assets": []
+    },
+    {
+      "id": "polaroid-single",
+      "version": 1,
+      "name": {
+        "en": "Polaroid Single",
+        "de": "Polaroid Einzelbild"
+      },
+      "category": "polaroid",
+      "tags": [
+        "vintage",
+        "tape",
+        "single"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 1,
+      "thumbnail": "templates/polaroid-single/thumb.jpg",
+      "definition": "templates/polaroid-single/template.json",
+      "sha256": "763c6b729da6851c96eb5245a8f9d2b9686f59d2963fd4054792e9e8248dbbb6",
       "assets": []
     },
     {
@@ -336,6 +516,106 @@
       "thumbnail": "templates/polaroid-wall-6/thumb.jpg",
       "definition": "templates/polaroid-wall-6/template.json",
       "sha256": "cde8fa6d00b7369b46ea6e47a7d72c0bdd29d9416aa123c2b0e748ecc9e08d6f",
+      "assets": []
+    },
+    {
+      "id": "side-by-side-2",
+      "version": 1,
+      "name": {
+        "en": "Side by Side",
+        "de": "Nebeneinander"
+      },
+      "category": "grid",
+      "tags": [
+        "photo-dump",
+        "clean",
+        "two"
+      ],
+      "aspectRatio": "4:5",
+      "photoCount": 2,
+      "thumbnail": "templates/side-by-side-2/thumb.jpg",
+      "definition": "templates/side-by-side-2/template.json",
+      "sha256": "43a979af970262e2eb751fcfc04ebfd6ea588b9de00ae79e1088ce8c3af3ed0e",
+      "assets": []
+    },
+    {
+      "id": "side-by-side-landscape-2",
+      "version": 1,
+      "name": {
+        "en": "Wide Duo",
+        "de": "Breites Duo"
+      },
+      "category": "grid",
+      "tags": [
+        "landscape",
+        "two",
+        "clean"
+      ],
+      "aspectRatio": "16:9",
+      "photoCount": 2,
+      "thumbnail": "templates/side-by-side-landscape-2/thumb.jpg",
+      "definition": "templates/side-by-side-landscape-2/template.json",
+      "sha256": "c4e96514459bd421e508a3a6c1a795b8c14ae25337afc71e377d064821444ac1",
+      "assets": []
+    },
+    {
+      "id": "soft-card-1",
+      "version": 1,
+      "name": {
+        "en": "Soft Card",
+        "de": "Weiche Karte"
+      },
+      "category": "editorial",
+      "tags": [
+        "rounded",
+        "story",
+        "single"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 1,
+      "thumbnail": "templates/soft-card-1/thumb.jpg",
+      "definition": "templates/soft-card-1/template.json",
+      "sha256": "e4b6bdcf591fe27c50ff90a39f29c49babe5be2662c6e39b81eed40e272b4551",
+      "assets": []
+    },
+    {
+      "id": "split-stack-2",
+      "version": 1,
+      "name": {
+        "en": "Split Story",
+        "de": "Geteilte Story"
+      },
+      "category": "grid",
+      "tags": [
+        "before-after",
+        "story",
+        "two"
+      ],
+      "aspectRatio": "9:16",
+      "photoCount": 2,
+      "thumbnail": "templates/split-stack-2/thumb.jpg",
+      "definition": "templates/split-stack-2/template.json",
+      "sha256": "f059e862f63a38d051ffcba17a243dc19b10c66912f1c21291331320f5c857b8",
+      "assets": []
+    },
+    {
+      "id": "triptych-16x9",
+      "version": 1,
+      "name": {
+        "en": "Triptych",
+        "de": "Triptychon"
+      },
+      "category": "grid",
+      "tags": [
+        "landscape",
+        "three",
+        "clean"
+      ],
+      "aspectRatio": "16:9",
+      "photoCount": 3,
+      "thumbnail": "templates/triptych-16x9/thumb.jpg",
+      "definition": "templates/triptych-16x9/template.json",
+      "sha256": "761021d4dd559aff1d621cfd87ed045a55392df0c22019656d302dad0b50070d",
       "assets": []
     }
   ]

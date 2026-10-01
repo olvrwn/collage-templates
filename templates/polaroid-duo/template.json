@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "polaroid-duo",
+  "version": 1,
+  "name": {
+    "en": "Polaroid Duo",
+    "de": "Polaroid-Duo"
+  },
+  "category": "polaroid",
+  "tags": [
+    "vintage",
+    "tape",
+    "two"
+  ],
+  "canvas": {
+    "aspectWidth": 4,
+    "aspectHeight": 5,
+    "backgroundColor": "#C9B9A6"
+  },
+  "defaults": {
+    "borderColor": "#F4F1EA",
+    "borderWidth": 0.03,
+    "gap": 0,
+    "cornerRadius": 0,
+    "outerPadding": 0
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.01,
+      "max": 0.05
+    },
+    "cornerRadius": {
+      "min": 0,
+      "max": 0.02
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.06,
+      "y": 0.1,
+      "width": 0.5,
+      "height": 0.472,
+      "rotation": -7,
+      "zIndex": 1,
+      "frameStyle": "polaroid",
+      "polaroidBottomRatio": 4.0,
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.3,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s2",
+      "x": 0.44,
+      "y": 0.41,
+      "width": 0.5,
+      "height": 0.472,
+      "rotation": 6,
+      "zIndex": 2,
+      "frameStyle": "polaroid",
+      "polaroidBottomRatio": 4.0,
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.3,
+        "offsetY": 0.006
+      }
+    }
+  ],
+  "decorations": [
+    {
+      "type": "shape",
+      "shape": "rect",
+      "color": "#EADFC0",
+      "opacity": 0.7,
+      "x": 0.2,
+      "y": 0.085,
+      "width": 0.2,
+      "height": 0.03,
+      "rotation": -12,
+      "zIndex": 5
+    },
+    {
+      "type": "shape",
+      "shape": "rect",
+      "color": "#EADFC0",
+      "opacity": 0.7,
+      "x": 0.6,
+      "y": 0.395,
+      "width": 0.2,
+      "height": 0.03,
+      "rotation": 8,
+      "zIndex": 6
+    }
+  ]
+}

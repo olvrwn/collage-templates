@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "hero-landscape-3",
+  "version": 1,
+  "name": {
+    "en": "Wide Hero",
+    "de": "Breites Hero"
+  },
+  "category": "editorial",
+  "tags": [
+    "landscape",
+    "hero",
+    "three"
+  ],
+  "canvas": {
+    "aspectWidth": 16,
+    "aspectHeight": 9,
+    "backgroundColor": "#0B0B0B"
+  },
+  "defaults": {
+    "borderColor": "#0B0B0B",
+    "borderWidth": 0,
+    "gap": 0.006,
+    "cornerRadius": 0,
+    "outerPadding": 0
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0,
+      "max": 0.04
+    },
+    "gap": {
+      "min": 0,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0,
+      "max": 0.08
+    },
+    "outerPadding": {
+      "min": 0,
+      "max": 0.08
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0,
+      "y": 0,
+      "width": 0.6667,
+      "height": 1,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s2",
+      "x": 0.6667,
+      "y": 0,
+      "width": 0.3333,
+      "height": 0.5,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s3",
+      "x": 0.6667,
+      "y": 0.5,
+      "width": 0.3333,
+      "height": 0.5,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    }
+  ],
+  "decorations": []
+}

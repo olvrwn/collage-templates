@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "polaroid-single",
+  "version": 1,
+  "name": {
+    "en": "Polaroid Single",
+    "de": "Polaroid Einzelbild"
+  },
+  "category": "polaroid",
+  "tags": [
+    "vintage",
+    "tape",
+    "single"
+  ],
+  "canvas": {
+    "aspectWidth": 4,
+    "aspectHeight": 5,
+    "backgroundColor": "#B7B59F"
+  },
+  "defaults": {
+    "borderColor": "#F4F1EA",
+    "borderWidth": 0.035,
+    "gap": 0,
+    "cornerRadius": 0,
+    "outerPadding": 0
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.01,
+      "max": 0.05
+    },
+    "cornerRadius": {
+      "min": 0,
+      "max": 0.02
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.15,
+      "y": 0.178,
+      "width": 0.7,
+      "height": 0.644,
+      "rotation": -3,
+      "zIndex": 1,
+      "frameStyle": "polaroid",
+      "polaroidBottomRatio": 4.0,
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.3,
+        "offsetY": 0.006
+      }
+    }
+  ],
+  "decorations": [
+    {
+      "type": "shape",
+      "shape": "rect",
+      "color": "#EADFC0",
+      "opacity": 0.7,
+      "x": 0.39,
+      "y": 0.155,
+      "width": 0.22,
+      "height": 0.035,
+      "rotation": -4,
+      "zIndex": 5
+    }
+  ]
+}

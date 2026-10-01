@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "framed-print-1",
+  "version": 1,
+  "name": {
+    "en": "Framed Print",
+    "de": "Gerahmter Druck"
+  },
+  "category": "editorial",
+  "tags": [
+    "minimal",
+    "gallery",
+    "single"
+  ],
+  "canvas": {
+    "aspectWidth": 4,
+    "aspectHeight": 5,
+    "backgroundColor": "#F2EEE7"
+  },
+  "defaults": {
+    "borderColor": "#1A1A1A",
+    "borderWidth": 0.012,
+    "gap": 0,
+    "cornerRadius": 0,
+    "outerPadding": 0.1
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0,
+      "max": 0.03
+    },
+    "gap": {
+      "min": 0,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0,
+      "max": 0.08
+    },
+    "outerPadding": {
+      "min": 0.02,
+      "max": 0.16
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.01,
+        "opacity": 0.25,
+        "offsetY": 0.005
+      }
+    }
+  ],
+  "decorations": []
+}

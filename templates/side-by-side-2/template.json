@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "side-by-side-2",
+  "version": 1,
+  "name": {
+    "en": "Side by Side",
+    "de": "Nebeneinander"
+  },
+  "category": "grid",
+  "tags": [
+    "photo-dump",
+    "clean",
+    "two"
+  ],
+  "canvas": {
+    "aspectWidth": 4,
+    "aspectHeight": 5,
+    "backgroundColor": "#FFFFFF"
+  },
+  "defaults": {
+    "borderColor": "#FFFFFF",
+    "borderWidth": 0,
+    "gap": 0.012,
+    "cornerRadius": 0,
+    "outerPadding": 0.03
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0,
+      "max": 0.04
+    },
+    "gap": {
+      "min": 0,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0,
+      "max": 0.08
+    },
+    "outerPadding": {
+      "min": 0,
+      "max": 0.08
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.5,
+      "height": 1.0,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s2",
+      "x": 0.5,
+      "y": 0.0,
+      "width": 0.5,
+      "height": 1.0,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    }
+  ],
+  "decorations": []
+}
