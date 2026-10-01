@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "polaroid-trio",
+  "version": 1,
+  "name": {
+    "en": "Polaroid Trio",
+    "de": "Polaroid-Trio"
+  },
+  "category": "polaroid",
+  "tags": [
+    "vintage",
+    "soft",
+    "tape"
+  ],
+  "canvas": {
+    "aspectWidth": 9,
+    "aspectHeight": 16,
+    "backgroundColor": "#9A9C88"
+  },
+  "defaults": {
+    "borderColor": "#F4F1EA",
+    "borderWidth": 0.025,
+    "gap": 0.0,
+    "cornerRadius": 0.0,
+    "outerPadding": 0.0
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.01,
+      "max": 0.05
+    },
+    "cornerRadius": {
+      "min": 0.0,
+      "max": 0.02
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.05,
+      "y": 0.04,
+      "width": 0.55,
+      "height": 0.352,
+      "rotation": -6,
+      "zIndex": 1,
+      "frameStyle": "polaroid",
+      "polaroidBottomRatio": 4.0,
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.3,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s2",
+      "x": 0.38,
+      "y": 0.325,
+      "width": 0.55,
+      "height": 0.352,
+      "rotation": 5,
+      "zIndex": 2,
+      "frameStyle": "polaroid",
+      "polaroidBottomRatio": 4.0,
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.3,
+        "offsetY": 0.006
+      }
+    },
+    {
+      "id": "s3",
+      "x": 0.2,
+      "y": 0.61,
+      "width": 0.55,
+      "height": 0.352,
+      "rotation": -4,
+      "zIndex": 3,
+      "frameStyle": "polaroid",
+      "polaroidBottomRatio": 4.0,
+      "gapAware": false,
+      "shadow": {
+        "radius": 0.012,
+        "opacity": 0.3,
+        "offsetY": 0.006
+      }
+    }
+  ],
+  "decorations": [
+    {
+      "type": "shape",
+      "shape": "rect",
+      "color": "#EADFC0",
+      "opacity": 0.7,
+      "x": 0.235,
+      "y": 0.03,
+      "width": 0.18,
+      "height": 0.022,
+      "rotation": -8,
+      "zIndex": 5
+    },
+    {
+      "type": "shape",
+      "shape": "rect",
+      "color": "#EADFC0",
+      "opacity": 0.7,
+      "x": 0.565,
+      "y": 0.315,
+      "width": 0.18,
+      "height": 0.022,
+      "rotation": 7,
+      "zIndex": 6
+    },
+    {
+      "type": "shape",
+      "shape": "rect",
+      "color": "#EADFC0",
+      "opacity": 0.7,
+      "x": 0.385,
+      "y": 0.6,
+      "width": 0.18,
+      "height": 0.022,
+      "rotation": -5,
+      "zIndex": 7
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "mosaic-1-2",
+  "version": 1,
+  "name": {
+    "en": "Mosaic 1+2",
+    "de": "Mosaik 1+2"
+  },
+  "category": "grid",
+  "tags": [
+    "clean",
+    "hero"
+  ],
+  "canvas": {
+    "aspectWidth": 9,
+    "aspectHeight": 16,
+    "backgroundColor": "#F4F1EA"
+  },
+  "defaults": {
+    "borderColor": "#F4F1EA",
+    "borderWidth": 0.0,
+    "gap": 0.012,
+    "cornerRadius": 0.0,
+    "outerPadding": 0.03
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.0,
+      "max": 0.04
+    },
+    "gap": {
+      "min": 0.0,
+      "max": 0.04
+    },
+    "cornerRadius": {
+      "min": 0.0,
+      "max": 0.08
+    },
+    "outerPadding": {
+      "min": 0.0,
+      "max": 0.08
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.0,
+      "y": 0.0,
+      "width": 1.0,
+      "height": 0.55,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s2",
+      "x": 0.0,
+      "y": 0.55,
+      "width": 0.5,
+      "height": 0.45,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    },
+    {
+      "id": "s3",
+      "x": 0.5,
+      "y": 0.55,
+      "width": 0.5,
+      "height": 0.45,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "solid",
+      "gapAware": true
+    }
+  ],
+  "decorations": []
+}

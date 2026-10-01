@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "film-strip-3",
+  "version": 1,
+  "name": {
+    "en": "Film Strip",
+    "de": "Filmstreifen"
+  },
+  "category": "film",
+  "tags": [
+    "analog",
+    "dark",
+    "strip"
+  ],
+  "canvas": {
+    "aspectWidth": 9,
+    "aspectHeight": 16,
+    "backgroundColor": "#D9D3C7"
+  },
+  "defaults": {
+    "borderColor": "#111111",
+    "borderWidth": 0.08,
+    "gap": 0.0,
+    "cornerRadius": 0.0,
+    "outerPadding": 0.0
+  },
+  "customizable": {
+    "borderColor": true,
+    "borderWidth": {
+      "min": 0.05,
+      "max": 0.12
+    },
+    "backgroundColor": true
+  },
+  "slots": [
+    {
+      "id": "s1",
+      "x": 0.15,
+      "y": 0.05,
+      "width": 0.7,
+      "height": 0.3,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "film",
+      "gapAware": false
+    },
+    {
+      "id": "s2",
+      "x": 0.15,
+      "y": 0.35,
+      "width": 0.7,
+      "height": 0.3,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "film",
+      "gapAware": false
+    },
+    {
+      "id": "s3",
+      "x": 0.15,
+      "y": 0.65,
+      "width": 0.7,
+      "height": 0.3,
+      "rotation": 0,
+      "zIndex": 1,
+      "frameStyle": "film",
+      "gapAware": false
+    }
+  ],
+  "decorations": []
+}
